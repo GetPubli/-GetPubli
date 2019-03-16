@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+<div class="col-md-4 col-md-offset-4" style="margin-top: 200px; margin: 0 auto;">
+<form action="" method=["GET", POST"]>
+	<div class="form-group">
+		<label>Método HTTP</label>
+		<input type="text" readonly class="form-control-plaintext" id="get_method" value="POST">
+	</div>
+	<div class = "form-group">
+		<p>Para fazer o POST de um funcionário, digite a seguinte URL: http://127.0.0.1:5000/post/funcionario/CPF_DO_FUNCIONARIO no postman, escolha o método POST e passe no body um dicionário com as seguintes chaves: {	"cpf"   : "CPF_A_INCLUIR", "nome"  : "NOME_A_INCLUIR", "cargo" : "CARGO_A_INCLUIR" } . Para concluir que a execução foi bem feita, faça um GET na seguinte URL: http://127.0.0.1:5000/get/funcionario/CPF_DO_FUNCIONARIO_CADASTRADO</p>
+	</div>
+</div>
+</form>	
+
+{% endblock %}

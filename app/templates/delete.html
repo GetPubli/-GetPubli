@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+<div class="col-md-4 col-md-offset-4" style="margin-top: 200px; margin: 0 auto;">
+<form action="" method=["GET", POST"]>
+	<div class="form-group">
+		<label>Método HTTP</label>
+		<input type="text" readonly class="form-control-plaintext" id="get_method" value="DELETE">
+	</div>
+	<div class = "form-group">
+		<p>Para fazer o DELETE de um funcionário, digite a seguinte URL: http://127.0.0.1:5000/delete/funcionario/CPF_DO_FUNCIONARIO no browser. Se a deleção for bem sucedidade, o retorno será um JSON com nome, cargo e cpf do funcionário deletado. Você pode cadastrar um novo funcionário utilizando o método POST para deleção ou deletar um dos CPFs já cadastrados: 433.288.368-37 ou 433.288.368-35.</p>
+	</div>
+</div>
+</form>	
+
+{% endblock %}
