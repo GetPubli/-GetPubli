@@ -1,9 +1,6 @@
 # -GetPubli
-
 Tutorial Criação do Ambiente virtual:
-
 Pré-requisito: Python instalado
-
 OBS: vá na pasta do projeto
 1 - pip install virtualenv
 2 - virtualenv venv
@@ -38,4 +35,3 @@ Coisas importantes que TODOS devem verificar:
     
     em default.pu
     2.3 - Como receber as informações desse HTML
-
