@@ -1,4 +1,5 @@
 # -GetPubli
+
 Tutorial Criação do Ambiente virtual:
 
 Pré-requisito: Python instalado
@@ -37,3 +38,4 @@ Coisas importantes que TODOS devem verificar:
     
     em default.pu
     2.3 - Como receber as informações desse HTML
+
