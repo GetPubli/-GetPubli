@@ -8,10 +8,10 @@ OBS: vá na pasta do projeto
 1 - pip install virtualenv
 2 - virtualenv venv
 3 - cd venv
-4 - cd scripts
-5 - activate
+4 - cd scripts / BIN
+5 - activate / Source activate
 6 - volta pro diretório onde está o requeriments.txt
-7 - pip3 install -r requirements.txt
+7 - pip3 install -r requirements.txt / pip install -r  requirements.txt
 8 - python run.py runserver
 
 Com o amiente criado e já utilizado, como eu entro nele a proxima vez que for utilizar o projeto?
